@@ -3,6 +3,7 @@ import Navbar from '@/components/navbar/navbar'
 import Subtitle from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
 import SaleCard from '@/components/cards/saleCard/SaleCard'
+import styles from '@/styles/index.module.css'
 
 export default function Home() {
   return (
@@ -19,14 +20,16 @@ export default function Home() {
       <div>
         <Navbar />
         <Container>
-          <div>
+          <div className={styles.session}>
             <Subtitle>Promoções</Subtitle>
-            <div>
-              <SaleCard/>
+            <div className={styles.salecontainer}>
+              <SaleCard />
+              <SaleCard />
+              <SaleCard />
             </div>
           </div>
 
-          <div>
+          <div className={styles.session}>
             <Subtitle>Outros jogos</Subtitle>
           </div>
         </Container>
