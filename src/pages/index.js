@@ -4,6 +4,7 @@ import Subtitle from '@/components/tipography/subtitle/subtitle'
 import Container from '@/components/container/container'
 import SaleCard from '@/components/cards/saleCard/SaleCard'
 import styles from '@/styles/index.module.css'
+import GameCard from '@/components/cards/gameCard/gameCard'
 
 export default function Home() {
   return (
@@ -31,6 +32,9 @@ export default function Home() {
 
           <div className={styles.session}>
             <Subtitle>Outros jogos</Subtitle>
+            <div>
+              <GameCard />
+            </div>
           </div>
         </Container>
       </div>
