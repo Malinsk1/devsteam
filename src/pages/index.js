@@ -41,7 +41,7 @@ export default function Home() {
                 fullPrice='199,90'
                 discountPrice='139,93'
                 onAdd={() => 
-                  handleAddProduct({name: 'league of legends', price: 199.90, image: 'league-of-legends.jpg'})}
+                  handleAddProduct({name: 'league of legends', price: 139.93, image: 'league-of-legends.jpg'})}
               />
               <SaleCard 
                 image={'dota-2.jpg'}
@@ -49,7 +49,7 @@ export default function Home() {
                 fullPrice='199,90'
                 discountPrice='119,94'
                 onAdd={() => 
-                  handleAddProduct({name: 'Dota 2', price: 199.90, image: 'dota-2.jpg'})}
+                  handleAddProduct({name: 'Dota 2', price: 119.94, image: 'dota-2.jpg'})}
               />
               <SaleCard
                 image={'valorant.jpg'}
@@ -57,7 +57,7 @@ export default function Home() {
                 fullPrice='199,90'
                 discountPrice='99,95'
                 onAdd={() => 
-                  handleAddProduct({name: 'Valorant', price: 199.90, image: 'valorant.jpg'})}
+                  handleAddProduct({name: 'Valorant', price: 99.95, image: 'valorant.jpg'})}
               />
             </div>
           </div>
